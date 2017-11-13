@@ -32,6 +32,6 @@ Então deverá exibir mensagem de erro
 Examples:
 | CNPJ           | Email              | Senha    |Mensagem                       |
 | 72334146000184 | user4@user.com.br  | 123456@  |Usuário Cadastrado com sucesso |
-| 99560111000209 | user5@user.com.br  | 123456@  |CPF inválido                   |
+| 99560111000209 | user5@user.com.br  | 123456@  |CNPJ inválido                  |
 | 20163764000105 | user6.com          | 123456@  |Email inválido                 |
 | 20186569000109 | user7@user.com.br  |          |Campo Senha não preenchido     |
