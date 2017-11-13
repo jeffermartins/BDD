@@ -6,6 +6,7 @@ Dado que eu esteja logado no sistema
 E acione a funcionalidade para Cadastrar Novo Usuário
 
 Scenario Outline: Cadastro de Usuário Pessoa Física
+E selecione a opção Pessoa Física
 E insira todos os dados do Usuário
 E os dados sejam válidos
 Quando eu acionar a opção Salvar
@@ -22,6 +23,7 @@ Examples:
 
 
 Scenario Outline: Cadastro de Usuário Pessoa Jurídica
+E selecione a opção Pessoa Jurídica
 E insira todos os dados do Usuário
 E os dados sejam válidos
 Quando eu acionar a opção Salvar
