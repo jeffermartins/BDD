@@ -8,7 +8,7 @@ E acione a funcionalidade para Cadastrar Novo Usuário
 Scenario Outline: Cadastro de Usuário Pessoa Física
 E insira todos os dados do Usuário
 E os dados sejam válidos
-Quando eu clicar acionar a opção Salvar
+Quando eu acionar a opção Salvar
 Então deverá ser exibido a mensagem de sucesso
 Mas se houver dados inválido ou não informados
 Então deverá exibir mensagem de erro
@@ -24,7 +24,7 @@ Examples:
 Scenario Outline: Cadastro de Usuário Pessoa Jurídica
 E insira todos os dados do Usuário
 E os dados sejam válidos
-Quando eu clicar acionar a opção Salvar
+Quando eu acionar a opção Salvar
 Então deverá ser exibido a mensagem de sucesso
 Mas se houver dados inválido ou não informados
 Então deverá exibir mensagem de erro
